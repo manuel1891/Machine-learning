@@ -46,18 +46,3 @@ We investigated a few machine learning algorithms:
 The Random Forest model (500 iterations) yielded the best result (84.5 % accuracy on the training set and 47.3% logloss on the 
 test set). The model returns probabilities for the target variable. Accepting the claims having probability of 70% and higher 
 for faster payment means that 66% of the claims receive approval for faster payment. 
-
-
-## 2. Santander - Kaggle Challenge - Products recommendation engine
-(Kubrick Group)
-
-*Notice that this project is based on a publicly available script by author SRK.*
-
-By groups of 2, we had to build a recommendation engine that recommends products  to Santander customers, in order to increase 
-revenues, traffic and customer satisfaction. 
-
-We tweaked the original model and parameters, and added up to 5 lags of the diverse products, which were significant predictors.
-We used XGBoost to run the model and finished in the top 10% of the competition. 
-
-
-
